@@ -15,7 +15,7 @@ class SerialGenerator:
 
 import random
 class WordFinder:
-    """find random words from dictionary"""
+    """find random words from a python dictionary"""
     def __init__(self, path):
         dict_file = open(path)
         self.words = self.parse(dict_file)
